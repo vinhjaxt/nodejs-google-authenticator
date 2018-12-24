@@ -1,0 +1,17 @@
+{
+  "name": "google-authenticator-nodejs",
+  "version": "1.0.0",
+  "description": "google authenticator nodejs",
+  "main": "index.js",
+  "keywords": [
+    "nodejs",
+    "google",
+    "authenticator"
+  ],
+  "author": "vinhjaxt",
+  "license": "ISC",
+  "dependencies": {
+    "base32-decode": "^1.0.0",
+    "base32-encode": "^1.1.0"
+  }
+}
