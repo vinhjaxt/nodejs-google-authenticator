@@ -78,7 +78,7 @@ function getCode (secret, time) {
   const hash = hmacSHA1(timeForCode, secret)
   const truncatedHash = hash.readUInt32BE(hash[hash.length - 1] & 0xF) & 0x7FFFFFFF
   const code = ((truncatedHash % pinModulo) + '').padStart(passCodeLength, '0')
-  console.log(code)
+  // console.log(code)
   return code
 }
 
